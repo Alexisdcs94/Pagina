@@ -1,0 +1,357 @@
+#navbar {
+
+height: 40px;
+position: center;
+text-align: center;
+width: 900px;
+font-family: fantasy;
+font-size: 30pt;
+margin-top: 400px;
+margin-left: 450px;
+opacity: 100%;
+
+}
+
+a {
+   color: #fff;
+   border-radius: 40px;
+   background: linear-gradient(90deg,#0162c8,#55e7fc);
+   font-size: 40px;
+   padding: 12px;
+   animation: animate 1s linear infinite;
+}
+
+body{
+    background-color: #e5e5f7;
+    opacity: 0.7;
+    background-image: radial-gradient(#444cf7 0.55px, #e5e5f7 0.55px);
+    background-size: 11px 11px;
+}
+#background-bio {
+background-color: #000000;
+opacity: 0;
+background-image:  radial-gradient(#ffffff 2px, transparent 2px), radial-gradient(#ffffff 2px, #000000 2px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+height: 550px;
+margin-top: 40px;
+}
+
+#bio {
+background-color: #f4f4f4;
+background-image:  radial-gradient(#323232 2px, transparent 2px), radial-gradient(#323232 0,5px, #f4f4f4 0,5px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+display: inline-block;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+margin-top: 100px;
+font-family: fantasy;
+font-size: 25pt ;
+text-align: center;
+border-radius: 50px;
+margin-left: 600px;
+width: 600px;
+margin-top: 300px;
+opacity: ;
+}
+
+#link {
+    font-size: small;
+}
+
+#contact {
+background-color: #f4f4f4;
+background-image:  radial-gradient(#323232 2px, transparent 2px), radial-gradient(#323232 0,5px, #f4f4f4 0,5px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+margin-top: 100px;
+font-family: fantasy;
+font-size: 25pt ;
+text-align: center;
+border-radius: 50px;
+margin-left: 200px;
+width: 600px;
+margin-top: 300px;
+}
+
+#navbarBio {
+height: 40px;
+position: center;
+text-align: center;
+width: 900px;
+font-family: fantasy;
+font-size: 30pt;
+margin-top: 50px;
+margin-left: 450px;
+}
+
+#portfolio {
+background-color: #f9eeee;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9eeee 16px ), repeating-linear-gradient( #e3c5c555, #e3c5c5 );
+display: flex;
+flex-wrap: nowrap;
+margin-top: 100px;
+font-family: fantasy;
+font-size: 25pt ;
+border-radius: 50px;
+margin-left: 300px;
+width: 1250px;
+margin-top: 300px;
+    }
+
+#game1{
+    background-image: url(Assets/chase.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left:5px;
+    margin-top:5px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+#game2{
+    background-image: url(Assets/doom.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+#game3{
+    background-image: url(Assets/lazerhawk.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
+    cursor: pointer;
+    transition: 0.5s; 
+    position: relative;
+    overflow: hidden;
+}
+#game4{
+    background-image: url(Assets/outrun.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+#game5{
+    background-image: url(Assets/sea.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+#game6{
+    background-image: url(Assets/retrocity.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover 100px;
+    border-radius: 100px;
+    margin-left:5px;
+    margin-top:5px;
+    cursor: pointer;
+    transition: 0.5s; 
+    position: relative;
+    overflow: hidden;
+}
+
+#game1:hover::after{
+    transform: translateY(0);
+}
+#game1::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+#game2:hover::after{
+    transform: translateY(0);
+}
+#game2::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+#game3:hover::after{
+    transform: translateY(0);
+}
+#game3::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+#game4:hover::after{
+    transform: translateY(0);
+}
+#game4::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+#game5:hover::after{
+    transform: translateY(0);
+}
+#game5::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+#game6:hover::after{
+    transform: translateY(0);
+}
+#game6::after{
+    content: "link";
+    font-size: 2rem;
+    color: #000000;
+    background-color: beige;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    opacity: 80%;
+    
+}
+
+#socialMedia {
+background-color: #fdfdfd;
+background-image:  radial-gradient(#323232 2px, transparent 2px), radial-gradient(#323232 0,5px, #f4f4f4 0,5px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+margin-top: 100px;
+font-family: fantasy;
+font-size: 25pt ;
+text-align: center;
+border-radius: 50px;
+margin-left: 600px;
+width: 600px;
+margin-top: 300px;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    background: rgb(99, 95, 95);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px px rgba(0,0,0,0,1);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+
+}
+.wrapper .button:hover {
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+}
+
+.wrapper .button .icon {
+    font-size: 25px;
+    line-height: 60px;
+    
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
